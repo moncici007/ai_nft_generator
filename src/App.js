@@ -71,7 +71,7 @@ function App() {
     // You can replace this with different model API's
     const URL = `https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2`
 
-    console.log(process.env.REACT_APP_HUGGING_FACE_API_KEY);
+    // console.log(process.env.REACT_APP_HUGGING_FACE_API_KEY);
 
     // Send the request
     const response = await axios({
@@ -88,7 +88,7 @@ function App() {
       responseType: 'arraybuffer',
     })
 
-    console.log(response)
+    // console.log(response)
 
     const type = response.headers['content-type']
     const data = response.data
