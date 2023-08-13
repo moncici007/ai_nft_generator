@@ -1,5 +1,8 @@
 # AI NFT Generator
 
+## HOMEPAGE
+https://ai-nft-generator.moncici.xyz/
+
 ## Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)
