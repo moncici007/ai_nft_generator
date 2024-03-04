@@ -56,6 +56,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:moncici007/ai_nft_generator.git"
+    "url": "https://github.com/moncici007/ai_nft_generator.git"
   }
 }
