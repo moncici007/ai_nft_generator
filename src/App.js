@@ -3,6 +3,8 @@ import { NFTStorage, File } from 'nft.storage'
 import { Buffer } from 'buffer';
 import { ethers } from 'ethers';
 import axios from 'axios';
+import { notify } from 'feishu-notifier';
+import { formatTimestamp } from '@moncici/date-time-processor';
 
 // Components
 import Spinner from 'react-bootstrap/Spinner';
@@ -63,6 +65,8 @@ function App() {
 
     setIsWaiting(false)
     setMessage("")
+
+    notify('BUY', `${} BUY a NFT`);
   }
 
   const createImage = async () => {
