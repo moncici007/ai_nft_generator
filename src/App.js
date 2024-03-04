@@ -66,7 +66,7 @@ function App() {
     setIsWaiting(false)
     setMessage("")
 
-    notify('BUY', `${} BUY a NFT`);
+    notify('BUY', `${formatTimestamp(new Date())} BUY a NFT`);
   }
 
   const createImage = async () => {
