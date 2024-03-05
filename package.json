@@ -56,6 +56,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moncici007/ai_nft_generator.git"
-  }
+    "url": "https://github.com/moncici007/ai_nft_generator"
+  },
+  "website": "https://github.com/moncici007/ai_nft_generator.git",
+  "homepage": "https://github.com/moncici007/ai_nft_generator#readme"
 }
