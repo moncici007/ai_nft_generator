@@ -5,6 +5,7 @@ import { ethers } from 'ethers';
 import axios from 'axios';
 import { notify } from 'feishu-notifier';
 import { formatTimestamp } from '@moncici/date-time-processor';
+import { log } from '@moncici/log';
 
 // Components
 import Spinner from 'react-bootstrap/Spinner';
@@ -34,11 +35,11 @@ function App() {
     setProvider(provider)
 
     const network = await provider.getNetwork()
-    console.log(network)
+    log(network)
 
-    console.log(config[network.chainId].nft.address)
-    console.log(NFT)
-    console.log(provider)
+    log(config[network.chainId].nft.address)
+    log(NFT)
+    log(provider)
     const nft = new ethers.Contract(config[network.chainId].nft.address, NFT, provider)
 
     setNFT(nft)

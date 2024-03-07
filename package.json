@@ -4,6 +4,7 @@
   "dependencies": {
     "@moncici/ai_nft_generator": "^0.1.1",
     "@moncici/date-time-processor": "^1.0.1",
+    "@moncici/log": "^1.0.2",
     "@openzeppelin/contracts": "^4.8.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -12,7 +13,7 @@
     "bootstrap": "^5.2.3",
     "buffer": "^6.0.3",
     "dotenv": "^16.0.3",
-    "feishu-notifier": "^1.0.0",
+    "feishu-notifier": "^1.0.3",
     "nft.storage": "^7.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
